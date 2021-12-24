@@ -1,4 +1,7 @@
-
-# source webcam, no save ??? confidence very low --weight file imported from google colab learn process using our own images. 
-
+#
+# source webcam (0), no save ??? confidence very low (0.1) --weight file imported from google colab learn process using our own images yolov5-5.0-train. 
+#
 (base) po@po-XPS-13-9350:~/development/Yolov5-Objects-Recognition/yolov5$ python detect.py --weights ./runs/train/exp4/weights/best.pt --conf 0.1 --source 0
+#better : 
+# --> using latest version of yolov5 for recognition : 
+~/development/Yolov5-Objects-Recognition/yolov5-6.0 $ python detect.py --weights ./runs/train/exp4/weights/best.pt --conf 0.1 --source 0
