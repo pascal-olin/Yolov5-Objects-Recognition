@@ -1,9 +1,18 @@
 <div align="center">
+<p>   
+<b> The logic structure so far in this fork is to have a specialised folder for training and and specialised folder for recognition</b>
+   <br>
+   This permits to split training work and material, done in COLAB, from application usage which needs only the detect code and the weight file produced by training. 
+   the recognition folder can then be cloned to any compatible environment to run detects in real time for example without having to have the rest of the eavy training environment. 
+</p>   
+<!-- 
 <p>
    <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
    <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/splash.jpg"></a>
 </p>
-<br>
+-->
+   
+   <br>
 <div>
    <a href="https://github.com/ultralytics/yolov5/actions"><img src="https://github.com/ultralytics/yolov5/workflows/CI%20CPU%20testing/badge.svg" alt="CI CPU testing"></a>
    <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv5 Citation"></a>
